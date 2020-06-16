@@ -68,3 +68,23 @@ Output
 Expected
 [true,true,true,false,true]
  */
+
+//____________________________________________________________________________________
+// Second Solution:
+
+function kidsWithCandies(candies, extraCandies) {
+    let max = Math.max(...candies);
+    return candies.map(i => i + extraCandies >= max);
+};
+
+/**
+ Accepted
+Runtime: 108 ms
+Your input
+[2,3,5,1,3]
+3
+Output
+[true,true,true,false,true]
+Expected
+[true,true,true,false,true]
+ */
