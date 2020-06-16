@@ -67,6 +67,10 @@ Output
 [true,true,true,false,true]
 Expected
 [true,true,true,false,true]
+
+Runtime: 80 ms, faster than 18.89% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+Memory Usage: 33.6 MB, less than 93.05% of JavaScript online submissions for Kids With the Greatest Number of Candies.
+
  */
 
 //____________________________________________________________________________________
